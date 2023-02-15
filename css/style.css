@@ -1,0 +1,147 @@
+@font-face {
+    font-family:oranienbaum;
+    src: url(/fons/Oranienbaum-Regular.ttf);
+}
+
+@font-face {
+    font-family:reggae;
+    src: url(/fons/ReggaeOne-Regular.ttf);
+}
+
+:root{
+    --color: rgb(240, 244, 244)
+
+}
+
+body.dark{
+    --box-shadow-color:rgb(231, 211, 211);
+    --background:rgb(64, 62, 61);
+    --background-color:var(--background);
+}s
+
+html, body{
+    overflow-x: hidden;
+    width: 100%;
+    background: (--color);
+    background-color:var(--background);
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.header{
+    margin: 10px 10px 60px 10px;
+    background-color: beige; s
+    width: 100%;
+    height: 100px;
+
+}
+
+.image{
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+    background-color: beige;
+}
+
+img[type = "image"]{
+    border: none;
+}
+
+.container{
+    display: block;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 10px 0px 0px;
+
+}
+
+h1{
+    font-size: 32px;
+    font-family:reggae;
+    margin: -35px 0 0px 0px;
+}
+
+.main{
+    width: 100%;
+    background-color: rgb(203, 160, 160);
+    padding: 0px 0px 0px 0px;
+    text-align: justify;
+}
+
+.sidebar{
+    width: 385px;
+    float: right;
+    padding: 0 0px 0px 10px;
+    background-color: rgb(212, 68, 68);
+    font-family:oranienbaum;
+    font-size: 12px;
+    margin: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0 0 0 10px;
+}
+
+li{
+    padding: 0 5px 0 0;
+}
+
+a{
+    text-decoration: none;
+    font-family:oranienbaum;
+    color: black;
+}
+
+.footer{
+    margin: -10px 20px 10px 10px;
+    background-color: beige;
+    width: 100%;
+}
+
+h2{
+    font-size: 25px;
+    font-family:reggae;
+}
+
+h4{
+    font-size: 15px;
+    font-family:reggae;
+}
+
+p{
+    font-family:oranienbaum;
+    font-size: 12px;
+    font-family:oranienbaum;
+}
+
+button{
+    background-color: rgb(212, 68, 68);
+}
+
+#toggle-theme-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 3px;
+    /* transition: 2s; */
+}
+
+#toggle-theme-btn:hover{
+    background: grey;
+}
+
+#toggle-theme-btn img {
+    width: 32px;
+}
+
+
+
